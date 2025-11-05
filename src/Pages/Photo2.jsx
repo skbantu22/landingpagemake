@@ -1,5 +1,5 @@
 import React from 'react';
-import ads_photo2 from '../assets/ads2.jpg';
+import ads_photo2 from '../assets/Ads2.jpg';
 
 function Photo2() {
   return (
