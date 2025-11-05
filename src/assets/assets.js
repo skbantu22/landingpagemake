@@ -5,7 +5,7 @@ import ads_photo from './ads.jpg'
 import order_icon from './order_icon.png'
 import upload_area from './upload_area.png'
 import parcel_icon from './parcel_icon.svg'
-import page1 from './Screenshot/page1.webp'
+import page1 from './Screenshot/Page1.webp'
 import page2 from './Screenshot/page2.jpeg'
 import page3 from './Screenshot/page3.webp'
 import page4 from './Screenshot/page4.webp'
@@ -17,7 +17,8 @@ import page11 from './Screenshot/page11.jpeg'
 import page12 from './Screenshot/page12.webp'
 import page13 from './Screenshot/page13.jpeg'
 import Product_img from './products.png'
-import photo2 from './Ads2.jpg'
+import ads2 from './Ads2.jpg'
+import Photo2 from './Ads2.jpg'
 export const assets = {
     logo,
     add_icon,
@@ -37,7 +38,10 @@ export const assets = {
     page12,
     page13,
    ads_photo,
-   photo2,
+ Photo2 ,
+ ads2,
+
+ 
    Product_img
 
 }
