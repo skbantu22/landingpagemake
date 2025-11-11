@@ -17,6 +17,11 @@ import page11 from './Screenshot/page11.jpeg'
 import page12 from './Screenshot/page12.webp'
 import page13 from './Screenshot/page13.jpeg'
 import Product_img from './products.png'
+import Photo4 from './Photo4.gif'
+import Photo5 from './Photo5.gif'
+import Photo6 from './Photo6.webp'
+import Photo7 from './Photo7.gif'
+import Photo9 from './Photo9.webp'
 import ads2 from './Ads2.jpg'
 import Photo2 from './Ads2.jpg'
 export const assets = {
@@ -39,6 +44,12 @@ export const assets = {
     page13,
    ads_photo,
  Photo2 ,
+ Photo4 ,
+ Photo5 ,
+ Photo6,
+ Photo9 ,
+ Photo7 ,
+
  ads2,
 
  

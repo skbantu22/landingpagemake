@@ -4,6 +4,8 @@ import Tayment from "./Tayment";
 import PrimeTestFAQ from "./PrimeTestFAQ ";
 import { Link } from 'react-scroll';
 import Photo2 from "./Photo2";
+import Photo10 from "./Photo10";
+
 
 export default function Checkout() {
   const [formData, setFormData] = useState({
@@ -55,6 +57,7 @@ export default function Checkout() {
 
 
 <PrimeTestFAQ />
+<Photo10 />
 <Tayment />
 
       {/* Footer */}

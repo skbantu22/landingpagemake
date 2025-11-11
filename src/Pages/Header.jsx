@@ -1,6 +1,12 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import Swiper from './swiper';
+import PrimeTestSection from './PrimeTestSection';
+import Photo4 from './Photo4';
+import Photo5 from './Photo5';
+import Photo9 from './Photo9';
+
+
 const Header = () => {
   const videoId = "NWg29OFYWIQ";
   const embedUrl = `https://www.youtube.com/embed/${videoId}`;
@@ -53,7 +59,34 @@ const Header = () => {
         </div>
         
       </div>
-      
+
+<Photo5 />
+
+   <Link
+        to="orderform"        // target id
+        smooth={true}          // smooth scrolling
+        duration={500}         // scroll duration in ms
+        className="cursor-pointer py-2 px-4 bg-red-600 hover:bg-red-700 text-white font-bold rounded-full flex items-center justify-center text-lg shadow-xl"
+      >
+        <span className="text-xl mr-2">🛒</span> অর্ডার করতে ক্লিক করুন
+      </Link>
+<PrimeTestSection />
+
+
+<Photo4 />
+
+   <Link
+        to="orderform"        // target id
+        smooth={true}          // smooth scrolling
+        duration={500}         // scroll duration in ms
+        className="cursor-pointer py-2 px-4 bg-red-600 hover:bg-red-700 text-white font-bold rounded-full flex items-center justify-center text-lg shadow-xl"
+      >
+        <span className="text-xl mr-2">🛒</span> অর্ডার করতে ক্লিক করুন
+      </Link>
+
+<Photo9 />
+
+
 <Swiper />
 <div className="w-full flex justify-center sm:justify-start lg:justify-center my-4 px-4">
   <Link
